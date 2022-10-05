@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/talentapp/static/css/main.14b3fa5b.css",
+    "main.js": "/talentapp/static/js/main.ae220c57.js",
+    "static/js/787.52b17722.chunk.js": "/talentapp/static/js/787.52b17722.chunk.js",
+    "index.html": "/talentapp/index.html",
+    "main.14b3fa5b.css.map": "/talentapp/static/css/main.14b3fa5b.css.map",
+    "main.ae220c57.js.map": "/talentapp/static/js/main.ae220c57.js.map",
+    "787.52b17722.chunk.js.map": "/talentapp/static/js/787.52b17722.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14b3fa5b.css",
+    "static/js/main.ae220c57.js"
+  ]
+}
