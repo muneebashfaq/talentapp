@@ -1,0 +1,20 @@
+p.Selection{
+    color: blue;
+background-color: rgb(236, 224, 238);
+text-align: center;
+padding: 2px;
+}
+
+p.Initiated{
+    color: rgb(160, 212, 160);
+background-color: rgb(228, 238, 228);
+text-align: center;
+padding: 2px;
+}
+
+p.Rejected{
+    color: rgb(33, 102, 33);
+background-color: rgb(57, 214, 57);
+text-align: center;
+padding: 2px;
+}

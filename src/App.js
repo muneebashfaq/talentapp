@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Sidebar from './components/Sidebar/Sidebar.component';
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
+import SearchTalent from './components/SearchTalent/SearchTalent.component';
+import Dashboard from './components/Dashboard/Dashboard.component';
+import CreateRequistion from './components/CreateRequistion/CreateRequistion.component';
+import RequistionLog from './components/RequistionLog/RequistionLog.component';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <>
+  <Routes>
+      <Route path="/" element={<Sidebar/>}>
+      <Route index element={<Dashboard/>} />
+        <Route path="SearchTalent" element={<SearchTalent />} />
+        <Route path="CreateRequistion" element={<CreateRequistion />} />
+        <Route path="RequistionLog" element={<RequistionLog />} />
+
+
+      </Route>
+   
+    </Routes>
+
+  </>  );
 }
 
 export default App;
